@@ -16,7 +16,7 @@ function App() {
       <RecipesProvider>
         <ModalProvider>
           <Header />
-          <div className="container pl-5 pt-4 m-0">
+          <div className="container pt-4">
             <div className="row">
               <Form />
             </div>

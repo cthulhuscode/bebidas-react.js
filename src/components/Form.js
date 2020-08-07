@@ -50,7 +50,7 @@ const Form = () => {
           <div className="col-md-4">
             {error ? (
               <span className="badge badge-primary text-left">
-                Seleccione al menos una opción
+                Ambos campos son obligatorios
               </span>
             ) : null}
 
@@ -84,6 +84,7 @@ const Form = () => {
               type="submit"
               value="Buscar"
               className="btn btn-block btn-dark text-white"
+              style={{ backgroundColor: "#ffc000", borderColor: "#ffc000" }}
             />
           </div>
         </div>

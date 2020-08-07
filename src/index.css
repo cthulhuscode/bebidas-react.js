@@ -12,12 +12,18 @@ header {
   background-color: #222;
   color: white;
   padding: 1rem 0;
-  border-bottom: 5px solid #ffc000;
+  border-bottom: 5px solid #cc9a00;
 }
 h1 {
-  color: #ffc000;
+  color: #cc9a00;
   font-family: sans-serif;
   font-weight: lighter;
   text-align: center;
   font-size: 3rem;
+}
+h2 {
+  color: #4c4c4c;
+}
+h4 {
+  color: #775a00;
 }

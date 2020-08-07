@@ -8,6 +8,9 @@ import Recipe from "./Recipe";
 const RecipesList = () => {
   // useContext
   const { recipes } = useContext(RecipesContext);
+
+  if (!recipes) return null;
+
   return (
     <div className="row mt-5">
       {recipes.map((recipe) => (
